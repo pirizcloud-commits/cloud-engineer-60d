@@ -63,5 +63,5 @@ drwxr-xr-x@ 2 prkr  staff    64B Jan 11 19:33 logs
 drwxr-xr-x@ 2 prkr  staff    64B Jan 11 19:33 scripts
 prkr@MacBookPro day02 % 
 
-## Screenshot
+# Screenshot
 ![Day 02](../assets/screenshots/day02-template-setup.png)
