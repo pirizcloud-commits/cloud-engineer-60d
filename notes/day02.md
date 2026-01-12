@@ -65,5 +65,3 @@ prkr@MacBookPro day02 %
 
 ## Screenshot
 ![Day 02](../assets/screenshots/day02-template-setup.png)
-
-
