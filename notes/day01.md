@@ -45,3 +45,7 @@ Paste your command output here after running:
 - ls
 - ls notes
 
+## Screenshot
+![Day 01](../assets/screenshots/day01-ubuntu-setup.png)
+
+
