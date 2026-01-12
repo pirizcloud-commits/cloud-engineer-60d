@@ -8,6 +8,15 @@ Create my project folder and set it up as a Git repo so I can track progress and
 - VS Code is my workspace, and the Terminal is where I run commands.
 - "Folders" keep things organized. I will use notes/ for daily write-ups, runbooks/ for how-to guides, and configs/ for settings files.
 
+## Additional setup I completed (Day 1)
+
+### Accounts + tools I set up
+- Created a GitHub account (so I can publish my progress and share my work).
+- Downloaded and installed VS Code (my code editor / workspace).
+- Downloaded and installed VirtualBox (runs Linux in a virtual computer).
+- Downloaded Ubuntu Server ISO and created an Ubuntu Server VM in VirtualBox.
+
+
 ## Commands I used
 - pwd (shows where I am)
   Example: pwd
@@ -44,6 +53,9 @@ Paste your command output here after running:
 - pwd
 - ls
 - ls notes
+- GitHub profile created (account exists)
+- VS Code opens and repo is visible in Explorer
+- VirtualBox shows Ubuntu Server VM
 
 ## Screenshot
 ![Day 01](../assets/screenshots/day01-ubuntu-setup.png)
