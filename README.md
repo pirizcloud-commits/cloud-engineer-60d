@@ -8,9 +8,15 @@ Goal: Build real skills with proof (notes, commands, and small projects).
 
 ## Table of Contents
 
+## How to use this repo
+1) Start in **Notes (Daily Logs)** and read the latest day.
+2) If you want to repeat a setup, use **Runbooks**.
+3) If you want hands-on practice files, open **Labs**.
+
+
 ### Notes (Daily Logs)
 - [Day 01 — Repo Setup + Structure](notes/day01.md)
-- [Day 02 — Filesystem Navigation + Mental Mapping](notes/day02.md)
+- [Day 02 Lab Folder](labs/day02/) (folders + command proof)
 
 ### Runbooks (How-To Guides)
 - [Repo Setup Runbook (Mac + VS Code)](runbooks/repo-setup.md)
