@@ -27,15 +27,38 @@ Learn how to move around the Linux filesystem confidently using paths and basic 
   Example: tree labs/day02
 
 ## What I broke / got wrong
-- (Write what confused you or what you typed wrong.)
+- I typed git log --oneline --max-count=5 and Git threw an error because --max-count needs a space (or -n 5). I learned Git flags can be picky.
 
 ## How I fixed it
-1) (What you changed)
-2) (How you verified)
+1) I reran the command using the correct format: git log --oneline --max-count 5 (or git log --oneline -n 5).
+2) I verified it worked when the commit list printed without errors.
 
 ## Proof
-Paste the output of:
-- pwd
-- ls -lah
+
+### pwd
+```bash
+prkr@MacBookPro cloud-engineer-60d % pwd
+/Users/prkr/cloud-labs/cloud-engineer-60d
+- ls -lah (repo root)
+prkr@MacBookPro cloud-engineer-60d % ls -lah
+total 8
+drwxr-xr-x@  8 prkr  staff   256B Jan 11 19:33 .
+drwxr-xr-x@  3 prkr  staff    96B Jan 11 12:45 ..
+drwxr-xr-x@ 12 prkr  staff   384B Jan 11 19:35 .git
+drwxr-xr-x@  2 prkr  staff    64B Jan 11 12:48 configs
+drwxr-xr-x@  3 prkr  staff    96B Jan 11 19:33 labs
+drwxr-xr-x@  5 prkr  staff   160B Jan 11 19:33 notes
+-rw-r--r--@  1 prkr  staff   190B Jan 11 18:25 README.md
+drwxr-xr-x@  3 prkr  staff    96B Jan 11 19:30 runbooks
 - cd labs/day02 && pwd
-- ls -lah
+prkr@MacBookPro cloud-engineer-60d % cd labs/day02 && pwd
+/Users/prkr/cloud-labs/cloud-engineer-60d/labs/day02
+- ls -lah (labs/day02)
+prkr@MacBookPro day02 % ls -lah
+total 0
+drwxr-xr-x@ 5 prkr  staff   160B Jan 11 19:33 .
+drwxr-xr-x@ 3 prkr  staff    96B Jan 11 19:33 ..
+drwxr-xr-x@ 2 prkr  staff    64B Jan 11 19:33 configs
+drwxr-xr-x@ 2 prkr  staff    64B Jan 11 19:33 logs
+drwxr-xr-x@ 2 prkr  staff    64B Jan 11 19:33 scripts
+prkr@MacBookPro day02 % 
