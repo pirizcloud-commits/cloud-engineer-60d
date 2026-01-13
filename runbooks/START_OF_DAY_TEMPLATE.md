@@ -7,7 +7,7 @@ Use this at the start of each day to restore context fast and start the right ta
 ## A) Pre-Flight (2 minutes)
 
 1) Start Ubuntu VM (VirtualBox) and wait until it finishes booting.
-
+/
 2) Go to repo and sync:
 - Command(s):
   - cd ~/cloud-labs/cloud-engineer-60d
@@ -106,4 +106,18 @@ Here is my CURRENT_STATE.md:
 
 Today is Day __. Let’s begin. The goal is to complete the Next Exact Step.
 
+## G) Paste CURRENT_STATE into ChatGPT (Session Context)
+
+1) Print CURRENT_STATE.md to the terminal:
+- Command(s):
+  - cd ~/cloud-labs/cloud-engineer-60d
+  - cat CURRENT_STATE.md
+
+2) Copy the printed output and paste it into a new ChatGPT chat like this:
+
+Session context:
+Here is my CURRENT_STATE.md:
+(paste here)
+
+Today is Day 3. Let’s begin.
 
