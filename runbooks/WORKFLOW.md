@@ -82,7 +82,7 @@ In Terminal:
 cd ~/cloud-labs/cloud-engineer-60d
 pwd
 `
-### New Chat
+### New Chat - How to resume
 cd ~/cloud-labs/cloud-engineer-60d
 git pull
 cat CURRENT_STATE.md
